@@ -1,8 +1,9 @@
 # 🌳 XGBS
-> classification task-driven hyperspectral band selection via interpretability from XGBoost
+> An advanced supervised hyperspectral band selection method
 
 The source code and pip version of XGBS will be made public following the publication of the paper:
 "Classification Task-Driven Hyperspectral Band Selection via Interpretability from XGBoost"
+
 
 **How to use:**
 
@@ -11,7 +12,7 @@ The source code and pip version of XGBS will be made public following the public
 ```
 pip install xgbs 
 ```
-2 Run:
+2 Run
 ```
 import xgbs
 import scipy
