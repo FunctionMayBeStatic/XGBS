@@ -16,8 +16,8 @@ pip install xgbs
 ```
 import xgbs
 import scipy
-hsi_3d = scipy.io.loadmat("/path/to/your/dataset/Indian_pines.mat')["indian_pines"]
-gt_2d = scipy.io.loadmat("/path/to/your/dataset/Indian_pines_gt.mat')["indian_pines_gt"]
+hsi_3d = scipy.io.loadmat("/path/to/your/dataset/Indian_pines.mat")["indian_pines"]
+gt_2d = scipy.io.loadmat("/path/to/your/dataset/Indian_pines_gt.mat")["indian_pines_gt"]
 hsi_2d = hsi_3d[gt_2d != 0]
 gt_1d = gt_2d[gt_2d != 0]
 
