@@ -6,8 +6,8 @@
 
 # Article
 [Classification Task-Driven Hyperspectral Band Selection via Interpretability from XGBoost](https://ieeexplore.ieee.org/document/11008687)
-
+💡 note: This is an open-access journal.
 *Abstract*
 > Band selection (BS) identifies key bands from hyperspectral imagery (HSI) for specific downstream tasks, playing a pivotal role in practical applications. eXtreme Gradient Boosting (XGBoost), an interpretable tree-based ensemble learning classifier, explicitly implements the complex nonlinear hyperspectral classification. The interpretable information extracted from tree structure offers a novel basis for supervised BS. To this end, this paper proposes a supervised BS method, named classification task-driven hyperspectral band selection via interpretability from XGBoost (XGBS). It leverages prior knowledge to train a classification task-driven XGBoost, and interprets tree structure to extract multivariate interpretable information, encompassing band split gain and two types of band dependencies. Subsequently, a heuristic search framework is employed to evaluate band performance, facilitating the selection of bands with strong classification capability, high interdependency and low redundancy. Experiments conducted on six real HSI datasets demonstrate the effectiveness and stability of the proposed XGBS.
 
-> 💡 note: This is an open-access journal.
+*Overall structure of XGBS*
