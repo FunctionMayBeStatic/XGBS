@@ -52,7 +52,7 @@ print(selected_bands)
 
 - XGBS can achieve good performance under most combinations of hyperparameters.
 
-- Note that the band indices in `selected_band` start from 0.  If you want to test the band performance in MATLAB, please +1 to the indices.
+- Note that the band indices in `selected_bands` start from 0.  If you want to test the band performance in MATLAB, please +1 to the indices.
 
 ## 🏷️ Citation
 
