@@ -12,3 +12,23 @@
 
 *Overall structure of XGBS*
 ![XGBS](images/xgbs-overall-structure.png "XGBS")
+
+# Installation
+> XGBS has only been tested on Python==3.9.18.
+> Other Python versions should be able to run, please try to use Python >= 3.9.
+
+```
+pip install xgbs
+```
+Or you can run XGBS directly from the source code.
+```
+git clone xxxx
+cd ./xgbs
+pip install numpy>=2.0.2
+pip install XGBoost>=1.8.1
+python demo.py
+```
+
+# Demo
+
+
