@@ -14,7 +14,7 @@
 
 ## 📦️ Installation
 > XGBS has only been tested on Python==3.9.18.
-> Other Python versions should be able to run, please try to use Python >= 3.9.
+> Other Python versions should be able to run, please try to use Python>=3.9.
 
 ```
 pip install xgbs
