@@ -3,7 +3,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.1109/JSTARS.2025.3572278) [![PyPI Version](https://img.shields.io/pypi/v/your-package-name.svg)](https://pypi.org/project/your-package-name/)
 
-
 ## ⭐ Article
 [Classification Task-Driven Hyperspectral Band Selection via Interpretability from XGBoost](https://ieeexplore.ieee.org/document/11008687)
 
@@ -15,13 +14,12 @@
 
 ## 📦️ Installation
 > XGBS has only been tested on Python==3.9.18.
-
 > Other Python versions should be able to run, please try to use Python >= 3.9.
 
 ```
 pip install xgbs
 ```
-Or you can run XGBS directly from the source code:
+*Or you can run XGBS directly from the source code*:
 ```
 git clone xxxx
 cd ./xgbs
@@ -29,7 +27,6 @@ pip install numpy>=2.0.2
 pip install XGBoost>=1.8.1
 python demo.py
 ```
-
 ## 🧩 Demo
 
 ```
@@ -49,27 +46,19 @@ selected_bands = xgbs.band_selection(
 print(selected_bands)
 ```
 
+- `nbs` represents the number of bands to be selected.
 
-`nbs` represents the number of bands to be selected.
+- `alpha` and `beta` are hyperparameters of XGBS. We tested the optimal hyperparameters on six datasets including Indian Pines using grid search strategy.  Please refer to the paper for details.
 
-`alpha` and `beta` are hyperparameters of XGBS.
+- XGBS can achieve good performance under most combinations of hyperparameters.
 
-We tested the optimal hyperparameters on six datasets including Indian Pines using grid search strategy. 
-
-Please refer to the paper for details.
-
-XGBS can achieve good performance under most combinations of hyperparameters.
-
-Note that the band indices in `selected_band` start from 0. 
-
-If you want to test the band performance in MATLAB, please +1 to the indices.
+- Note that the band indices in `selected_band` start from 0.  If you want to test the band performance in MATLAB, please +1 to the indices.
 
 ## 🏷️ Citation
 
 If you use XGBS, please consider citing:
 
 [Classification Task-Driven Hyperspectral Band Selection via Interpretability from XGBoost](https://ieeexplore.ieee.org/document/11008687)
-
 
 ## 🤝 Contact
 
