@@ -12,4 +12,4 @@
 
 *Overall structure of XGBS*
 
-![SSANet-BS](images/ssanet_bs.png "SSANet-BS")
+![XGBS](xgbs-overall-structure.png.png "SSANet-BS")
