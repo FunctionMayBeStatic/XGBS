@@ -22,9 +22,9 @@ pip install xgbs
 *Or you can run XGBS directly from the source code*:
 ```
 git clone https://github.com/FunctionMayBeStatic/XGBS.git
-cd xgbs
+cd XGBS
 pip install numpy>=2.0.2
-pip install XGBoost>=1.8.1
+pip install XGBoost>=2.1.1
 python demo.py
 ```
 ## 🧩 Demo
